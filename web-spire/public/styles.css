@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.Submito
+{
+  position:absolute;
+  margin-left:16.36rem;
+  margin-top:-2.27rem;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+.appoo
+{
+  max-width:100%;
+  max-height:100%;
+  
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#preloader{
+  background:#000 url("https://th.bing.com/th/id/R.b0143da66535146414729a5cddd6baf5?rik=26XMz0x8qrP%2bEg&riu=http%3a%2f%2f38.media.tumblr.com%2fc7daaa2e971586722a627380e4fa6ab9%2ftumblr_nfbkj0u0jl1raievko1_400.gif&ehk=n2amhLEsLZ1aGo%2bJMqN7ZEaU0GHcpiWQ9cHJB%2bTSvfY%3d&risl=&pid=ImgRaw&r=0") no-repeat center center;
+  height:100vh;
+  width:208vh;
+  position: fixed;
+  z-index:100;
+  background-size: 15%;
+  margin-left: -0.81rem;
+}
+/* "https://th.bing.com/th/id/R.b0143da66535146414729a5cddd6baf5?rik=26XMz0x8qrP%2bEg&riu=http%3a%2f%2f38.media.tumblr.com%2fc7daaa2e971586722a627380e4fa6ab9%2ftumblr_nfbkj0u0jl1raievko1_400.gif&ehk=n2amhLEsLZ1aGo%2bJMqN7ZEaU0GHcpiWQ9cHJB%2bTSvfY%3d&risl=&pid=ImgRaw&r=0" */
+
+body {
+  /* #eee */
+  background: #7EC8E3 ;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
+  /* background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+  padding: 0 0.72rem;
+  opacity:2;
+}
+
+.gap
+{
+  min-height: 0.90rem;
+}
+.delic
+{
+  display:block;
+  top:-1.59rem;
+}
+.write
+{
+  padding:0.90rem;
+ 
+}
+img
+{
+  padding:0.45rem;
+  margin:auto;
+  margin-left: 5.35rem;
+}
+.userc
+{
+  color:  #7EC8E3;
+  font-family: "McLaren", cursive;
+  padding:15px;
+}
+
+.Logout
+{
+  padding: 0.5rem;
+  margin:auto;
+    margin-top:1rem;
+    background: none;
+    border:none;
+  float:right;
+  margin-top: -2.72rem;
+}
+.darkF
+{
+  color:#0000FF;
+}
+header {
+  /* background-color:#f5ba13; */
+  background-color: #050A30;
+  margin: auto -0.72rem;
+  padding: 0.72rem 1.45rem;
+  box-shadow: 0 0 0.45rem 0 rgba(0, 0, 0, 0.3);
+
+  box-shadow: 0.6rem 0.6rem 0.6rem rgba(0, 0, 0, 0.5);    
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    position:sticky;
+    top:0;
+}
+
+header h1 {
+  color:  #7EC8E3;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.foot
+{
+  position:absolute;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  float: bottom;
+}
+
+footer p {
+  color: #613659;
+}
+
+.but{
+  background-color: #050A30;
+  margin-bottom: 1rem;
+}
+
+.note {
+  background-color:#050A30;
+  border-radius: 0.32rem;
+  box-shadow: 0 0.09rem 0.227rem #ccc;
+  padding: 0.45rem;
+  margin: 0.72rem;
+  padding: 0.45 rem;
+  width: 26.818rem;
+  margin:auto;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 0.27rem;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 0.45rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 0.45rem;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+.navyh
+{
+  padding-left: 20px;
+  font-size: 0.7em;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+#myCanvas {
+  background-color: #1f1f1f;
+}
